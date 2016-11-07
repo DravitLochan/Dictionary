@@ -7,4 +7,6 @@ The other case will be handled soon.
 
 The full page is scraped and only major text is given as output. Will soon be updating.
 
+This module of web scraping is purely for educational purposes. In no means any person or organization is not profited from it. 
+
 cheers! 
