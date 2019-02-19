@@ -11,12 +11,17 @@ def find_meaning(word):
 
 	for item in mean:
 		try:
-			print (item.contents[0].text) 
-			print (item.contents[1].text)
+			# print (item.contents[0].text) 
+			# print (item.contents[1].text)
 			print (item.contents[2].text)
-			print (item.contents[3].text)
+			# print (item.contents[3].text)
+			str = item.contents[2].text
+			# arr = str.split(";")
+			# print (str)
+			# print (arr)
+			return str
 		except:
 			pass
 
-word=input('Enter the word whose meaning you want to find : ')
+word=raw_input()
 find_meaning(word)
