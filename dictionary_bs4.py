@@ -13,7 +13,7 @@ def find_meaning(word):
 		try:
 			# print (item.contents[0].text) 
 			# print (item.contents[1].text)
-			print (item.contents[2].text)
+			# print (item.contents[2].text)
 			# print (item.contents[3].text)
 			str = item.contents[2].text
 			# arr = str.split(";")
@@ -22,6 +22,3 @@ def find_meaning(word):
 			return str
 		except:
 			pass
-
-word=raw_input()
-find_meaning(word)
