@@ -7,10 +7,7 @@ with open("wm.json", "a") as mf:
 	words_json = json.loads(f.read())
 	words = words_json.keys()
 	data = []
-	i = 1
 	for word in words:
-		if i == 6:
-			break
 		dict = {}	
 		a = word.encode('ascii', 'ignore')	
 		dict['word'] = a
@@ -21,5 +18,4 @@ with open("wm.json", "a") as mf:
 			dict['meaning'] = b.encode('ascii', 'ignore')	
 		mf.write(json.dumps(dict))
 		mf.write(", ")
-		i = i+1
 	mf.write("]")	
