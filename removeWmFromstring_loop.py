@@ -20,4 +20,4 @@ for word in json_sl.keys():
 	else:
 		dict[str(word)] = 1
 		data.append(dict)
-sln.write(data)		
+sln.write(str(data))		
